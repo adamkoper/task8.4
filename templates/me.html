@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <title>O mnie</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        {% extends "base.html" %}
+        {% block content %}
+        <h2 class="first">O mnie</h2>
+        <p1 class="second"><strong>imię:</strong> Adam <br></p1>
+        <p2 class="second"><b>nazwisko:</b> Koprowski</p2>
+        {% endblock %}
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <title>kontakt</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        {% extends "base.html" %}
+        {% block content %}
+        <h2 class="first">Kontakt</h2>
+        <ul>
+            <li><strong>email:</strong> adamkoprowski4@gamil.com</li>
+            <li><strong>telefon:</strong> 723169667</li>
+        </ul>
+        <p>
+        <label>Wyślij wiadomość</label><br>
+        <textarea></textarea>
+            <button type="submit">Prześlij</button>
+        </p>
+        {% endblock %}
+    </body>
+</html>
